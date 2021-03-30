@@ -1,0 +1,18 @@
+#!/usr/bin/env groovy
+
+multibranchPipelineJob('test-repo-99') {
+    displayName('test-repo-99 cidi')
+    branchSources {
+        github {
+            id('test-repo-99') // IMPORTANT: use a constant and unique identifier
+            repoOwner('rasch-dtc')
+            repository('test-repo-99')            
+            scanCredentialsId('poleposition-jenkins-github-secret')
+        }
+    }
+    orphanedItemStrategy {
+        discardOldItems {
+            numToKeep(20)
+        }
+    }
+}
