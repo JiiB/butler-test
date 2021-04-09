@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/JiiB/butler-test/compare/v1.0.0...v1.1.0) (2021-04-09)
+
+
+### Features
+
+* new feature added ([95e02e2](https://github.com/JiiB/butler-test/commit/95e02e20eb48c41a5b50bd22833cfe554b563e20))
+
 # 1.0.0 (2021-04-09)
 
 
