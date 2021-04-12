@@ -34,7 +34,6 @@ jobs:
 
       - name: Install dependencies & build
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN_PUBLISH }}" > .npmrc
           yarn install --prefer-offline --frozen-lockfile
           yarn build
 
