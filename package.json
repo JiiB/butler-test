@@ -5,6 +5,9 @@
   "repository": "https://github.com/JiiB/butler-test.git",
   "author": "Nino Zumstein <nino.zumstein@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build":"echo building..."
+  },
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/commit-analyzer": "^8.0.1",
